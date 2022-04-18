@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "bits",
+  "collectionName": "tutorials",
   "info": {
-    "singularName": "bit",
-    "pluralName": "bits",
-    "displayName": "Bit",
-    "description": ""
+    "singularName": "tutorial",
+    "pluralName": "tutorials",
+    "displayName": "Tutorial"
   },
   "options": {
     "draftAndPublish": false
@@ -13,17 +12,18 @@
   "pluginOptions": {},
   "attributes": {
     "Update": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "Title": {
       "type": "string",
-      "unique": true,
-      "required": true
+      "required": true,
+      "unique": true
     },
     "Description": {
       "type": "text",
-      "required": true,
-      "unique": true
+      "unique": true,
+      "required": true
     },
     "Reference": {
       "type": "text",
@@ -31,12 +31,11 @@
       "unique": true
     },
     "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "Chain": {
       "type": "enumeration",
@@ -48,8 +47,7 @@
         "algorand",
         "cardano",
         "elrond"
-      ],
-      "required": true
+      ]
     },
     "Source": {
       "type": "enumeration",
