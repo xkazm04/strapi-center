@@ -24,6 +24,59 @@
       "type": "text",
       "required": true,
       "unique": true
+    },
+    "Reference": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Chain": {
+      "type": "enumeration",
+      "enum": [
+        "evm",
+        "solana",
+        "terra",
+        "polkadot",
+        "algorand",
+        "cardano",
+        "elrond"
+      ]
+    },
+    "Source": {
+      "type": "enumeration",
+      "enum": [
+        "github",
+        "blog",
+        "web",
+        "youtube"
+      ]
+    },
+    "Phase": {
+      "type": "enumeration",
+      "enum": [
+        "dev",
+        "test",
+        "security",
+        "deployment"
+      ]
+    },
+    "Usage": {
+      "type": "enumeration",
+      "enum": [
+        "nft",
+        "defi",
+        "web3"
+      ]
     }
   }
 }
