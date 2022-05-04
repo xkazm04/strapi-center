@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tutorial",
     "pluralName": "tutorials",
-    "displayName": "Tutorial"
+    "displayName": "Tutorial",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -30,19 +31,13 @@
       "required": true,
       "unique": true
     },
-    "Image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "Chain": {
       "type": "enumeration",
       "enum": [
         "evm",
+        "near",
         "solana",
-        "terra",
+        "cosmos",
         "polkadot",
         "algorand",
         "cardano",
@@ -55,24 +50,35 @@
         "github",
         "blog",
         "web",
-        "youtube"
+        "youtube",
+        "medium",
+        "chainlink"
       ]
     },
-    "Phase": {
-      "type": "enumeration",
-      "enum": [
-        "dev",
-        "test",
-        "security",
-        "deployment"
-      ]
+    "Series": {
+      "type": "string"
     },
-    "Usage": {
+    "Tool": {
+      "type": "string"
+    },
+    "Language": {
+      "type": "string"
+    },
+    "Subcategory": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Difficulty": {
       "type": "enumeration",
       "enum": [
-        "nft",
-        "defi",
-        "web3"
+        "basic",
+        "intermediate",
+        "advanced",
+        "trickster",
+        "hacker",
+        "expert"
       ]
     }
   }
