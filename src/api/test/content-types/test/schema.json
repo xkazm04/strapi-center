@@ -44,6 +44,9 @@
     },
     "Source": {
       "type": "text"
+    },
+    "Subcategory": {
+      "type": "text"
     }
   }
 }
