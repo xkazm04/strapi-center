@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "Test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Reference": {
+      "type": "text"
+    },
+    "Update": {
+      "type": "date"
+    },
+    "Series": {
+      "type": "text"
+    },
+    "Chain": {
+      "type": "text"
+    },
+    "Tool": {
+      "type": "text"
+    },
+    "Language": {
+      "type": "text"
+    },
+    "Usage": {
+      "type": "text"
+    },
+    "Difficulty": {
+      "type": "text"
+    },
+    "Source": {
+      "type": "text"
+    }
+  }
+}
