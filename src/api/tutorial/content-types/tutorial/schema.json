@@ -41,19 +41,26 @@
         "polkadot",
         "algorand",
         "cardano",
-        "elrond"
+        "elrond",
+        "oasis",
+        "ziliqa",
+        "kadena"
       ]
     },
     "Source": {
       "type": "enumeration",
       "enum": [
+        "medium",
         "github",
         "blog",
         "web",
         "youtube",
-        "medium",
+        "devto",
+        "hashnode",
         "chainlink"
-      ]
+      ],
+      "default": "medium",
+      "required": true
     },
     "Series": {
       "type": "string"
@@ -79,7 +86,14 @@
         "trickster",
         "hacker",
         "expert"
-      ]
+      ],
+      "required": true,
+      "default": "basic"
+    },
+    "ViewCounter": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }
