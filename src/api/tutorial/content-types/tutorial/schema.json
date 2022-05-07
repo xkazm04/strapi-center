@@ -44,8 +44,12 @@
         "elrond",
         "oasis",
         "ziliqa",
-        "kadena"
-      ]
+        "kadena",
+        "flow",
+        "starknet",
+        "tezos"
+      ],
+      "default": "evm"
     },
     "Source": {
       "type": "enumeration",
