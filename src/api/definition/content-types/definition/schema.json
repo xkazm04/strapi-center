@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "definitions",
+  "info": {
+    "singularName": "definition",
+    "pluralName": "definitions",
+    "displayName": "Definition",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Update": {
+      "type": "date",
+      "required": true,
+      "default": "2022-05-01"
+    },
+    "Title": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "Reference": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "Usage": {
+      "type": "text"
+    },
+    "Source": {
+      "type": "enumeration",
+      "enum": [
+        "medium",
+        "github",
+        "blog",
+        "web",
+        "youtube"
+      ]
+    },
+    "Chain": {
+      "type": "string"
+    },
+    "Series": {
+      "type": "string"
+    },
+    "Difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "basic",
+        "intermediate",
+        "advanced",
+        "expert",
+        "trickster",
+        "hacker"
+      ]
+    },
+    "Language": {
+      "type": "string"
+    },
+    "ViewCounter": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 1000000000000
+    }
+  }
+}
