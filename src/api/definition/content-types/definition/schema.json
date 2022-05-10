@@ -61,7 +61,8 @@
         "expert",
         "trickster",
         "hacker"
-      ]
+      ],
+      "default": "basic"
     },
     "Language": {
       "type": "string"
