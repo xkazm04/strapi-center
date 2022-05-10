@@ -18,7 +18,7 @@
       "default": "2022-05-01"
     },
     "Title": {
-      "type": "text",
+      "type": "string",
       "required": true,
       "unique": true
     },
@@ -33,7 +33,7 @@
       "unique": true
     },
     "Usage": {
-      "type": "text"
+      "type": "string"
     },
     "Source": {
       "type": "enumeration",
@@ -43,7 +43,8 @@
         "blog",
         "web",
         "youtube"
-      ]
+      ],
+      "default": "medium"
     },
     "Chain": {
       "type": "string"
