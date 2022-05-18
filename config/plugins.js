@@ -5,7 +5,7 @@ module.exports = {
       meilisearch: {
         config: {
           // Your meili host
-          host: "http://207.154.242.1/",
+          host: "https://server.d3vlibrary.com/",
           // Your master key or private key
           apiKey: process.env.MEILI,
         }
