@@ -4,7 +4,8 @@
   "info": {
     "singularName": "repo",
     "pluralName": "repos",
-    "displayName": "Repo"
+    "displayName": "Repo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -21,7 +22,7 @@
       "unique": true,
       "required": true
     },
-    "Chain": {
+    "Language": {
       "type": "string"
     },
     "Usage": {
