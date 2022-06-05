@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repos",
+  "info": {
+    "singularName": "repo",
+    "pluralName": "repos",
+    "displayName": "Repo"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    },
+    "Chain": {
+      "type": "string"
+    },
+    "Usage": {
+      "type": "string"
+    },
+    "Subcategory": {
+      "type": "string"
+    },
+    "Reference": {
+      "type": "text",
+      "unique": true,
+      "required": true
+    }
+  }
+}
