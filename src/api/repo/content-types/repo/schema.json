@@ -12,29 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "Description": {
+    "description": {
       "type": "text",
       "unique": true,
       "required": true
     },
-    "Language": {
+    "language": {
       "type": "string"
     },
-    "Usage": {
+    "usage": {
       "type": "string"
     },
-    "Subcategory": {
+    "subcategory": {
       "type": "string"
     },
-    "Reference": {
+    "reference": {
       "type": "text",
       "unique": true,
       "required": true
+    },
+    "category": {
+      "type": "string"
     }
   }
 }
