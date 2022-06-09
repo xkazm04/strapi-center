@@ -14,8 +14,7 @@
   "attributes": {
     "Update": {
       "type": "date",
-      "required": true,
-      "default": "2022-05-01"
+      "required": true
     },
     "Title": {
       "type": "string",

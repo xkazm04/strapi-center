@@ -38,6 +38,11 @@
     },
     "category": {
       "type": "string"
+    },
+    "counter": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
     }
   }
 }
