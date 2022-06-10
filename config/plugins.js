@@ -9,5 +9,16 @@ module.exports = {
           // Your master key or private key
           apiKey: process.env.MEILI,
         }
-    }
+    },
+    
   }
+
+  module.exports = ({ env }) => ({
+    // ...
+    'users-permissions': {
+      config: {
+      jwtSecret: env('JWT_SECRET')
+    },
+    },
+    // ...
+  });
