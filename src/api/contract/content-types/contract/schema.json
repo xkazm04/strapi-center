@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracts",
+  "info": {
+    "singularName": "contract",
+    "pluralName": "contracts",
+    "displayName": "contract"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "reference": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
