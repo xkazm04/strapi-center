@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contract",
     "pluralName": "contracts",
-    "displayName": "contract"
+    "displayName": "contract",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -23,6 +24,11 @@
     },
     "name": {
       "type": "string"
+    },
+    "isSwap": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
