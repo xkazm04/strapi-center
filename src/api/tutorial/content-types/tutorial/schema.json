@@ -48,7 +48,9 @@
         "kadena",
         "flow",
         "starknet",
-        "tezos"
+        "tezos",
+        "iota",
+        "stellar"
       ],
       "default": "evm"
     },

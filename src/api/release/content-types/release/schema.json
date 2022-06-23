@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "releases",
+  "info": {
+    "singularName": "release",
+    "pluralName": "releases",
+    "displayName": "Release"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tool": {
+      "type": "string",
+      "required": true
+    },
+    "version": {
+      "type": "string"
+    },
+    "difference": {
+      "type": "richtext",
+      "required": true
+    },
+    "chain": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subcategory": {
+      "type": "string"
+    },
+    "update": {
+      "type": "date",
+      "required": true
+    },
+    "reference": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    }
+  }
+}
