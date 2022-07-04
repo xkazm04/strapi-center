@@ -9,7 +9,10 @@ module.exports = {
           // Your master key or private key
           apiKey: process.env.MEILI,
         }
-    },
+      },
+      graphql: {
+        amountLimit: 2500,
+      },
     
   }
 

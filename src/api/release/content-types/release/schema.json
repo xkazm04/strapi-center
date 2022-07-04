@@ -4,7 +4,8 @@
   "info": {
     "singularName": "release",
     "pluralName": "releases",
-    "displayName": "Release"
+    "displayName": "Release",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -39,6 +40,11 @@
       "type": "text",
       "required": true,
       "unique": true
+    },
+    "source": {
+      "type": "string",
+      "required": true,
+      "default": "Medium"
     }
   }
 }
