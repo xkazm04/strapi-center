@@ -36,6 +36,7 @@
       "enum": [
         "evm",
         "near",
+        "any",
         "solana",
         "cosmos",
         "polkadot",
@@ -102,6 +103,12 @@
       "type": "integer",
       "default": 0,
       "min": 0
+    },
+    "codePreview": {
+      "type": "richtext"
+    },
+    "codeTags": {
+      "type": "json"
     }
   }
 }

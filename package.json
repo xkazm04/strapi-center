@@ -10,17 +10,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.1.12",
+    "@strapi/plugin-graphql": "^4.2.3",
     "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-sentry": "^4.2.3",
     "@strapi/plugin-seo": "^1.7.2",
     "@strapi/plugin-users-permissions": "4.1.12",
-    "@strapi/strapi": "4.1.12",
+    "@strapi/strapi": "^4.2.3",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-meilisearch": "^0.6.2",
-    "strapi-plugin-rest-cache": "^4.2.4",
-    "strapi-plugin-wysiwsg-react-md-editor": "^4.1.0",
-    "strapi-provider-rest-cache-memory": "^4.2.4"
+    "strapi-plugin-wysiwsg-react-md-editor": "^4.1.0"
   },
   "author": {
     "name": "A Strapi developer"

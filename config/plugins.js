@@ -12,8 +12,7 @@ module.exports = {
       },
       graphql: {
         amountLimit: 2500,
-      },
-    
+      }    
   }
 
   module.exports = ({ env }) => ({
@@ -22,6 +21,13 @@ module.exports = {
       config: {
       jwtSecret: env('JWT_SECRET')
     },
+    },
+    sentry: {
+      enabled: true,
+      config: {
+        dsn: env('SENTRY_DSN'),
+        sendMetadata: true,
+      },
     },
     // ...
   });
