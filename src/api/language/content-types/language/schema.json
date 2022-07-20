@@ -32,12 +32,18 @@
     "Js": {
       "type": "richtext"
     },
-    "Reference": {
+    "referenceSol": {
       "type": "text",
       "unique": true
     },
     "Type": {
       "type": "string"
+    },
+    "referenceInk": {
+      "type": "text"
+    },
+    "referenceJs": {
+      "type": "text"
     }
   }
 }
