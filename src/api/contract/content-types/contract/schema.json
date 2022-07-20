@@ -38,6 +38,12 @@
     },
     "chain": {
       "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "fullname": {
+      "type": "text"
     }
   }
 }
