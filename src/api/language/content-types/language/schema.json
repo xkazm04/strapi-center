@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "languages",
+  "info": {
+    "singularName": "language",
+    "pluralName": "languages",
+    "displayName": "Language",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Solidity": {
+      "type": "richtext"
+    },
+    "Ink": {
+      "type": "richtext"
+    },
+    "Rust": {
+      "type": "richtext"
+    },
+    "Js": {
+      "type": "richtext"
+    },
+    "Reference": {
+      "type": "text",
+      "unique": true
+    },
+    "Type": {
+      "type": "string"
+    }
+  }
+}
