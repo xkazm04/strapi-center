@@ -29,6 +29,15 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "code": {
+      "type": "richtext"
+    },
+    "version": {
+      "type": "string"
+    },
+    "chain": {
+      "type": "string"
     }
   }
 }
