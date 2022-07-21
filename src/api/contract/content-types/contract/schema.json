@@ -53,6 +53,12 @@
     },
     "codeClean": {
       "type": "richtext"
+    },
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
