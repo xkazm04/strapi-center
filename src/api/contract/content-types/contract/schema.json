@@ -50,6 +50,9 @@
     },
     "events": {
       "type": "richtext"
+    },
+    "codeClean": {
+      "type": "richtext"
     }
   }
 }
