@@ -44,6 +44,12 @@
     },
     "fullname": {
       "type": "text"
+    },
+    "functions": {
+      "type": "richtext"
+    },
+    "events": {
+      "type": "richtext"
     }
   }
 }
