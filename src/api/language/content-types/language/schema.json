@@ -44,6 +44,9 @@
     },
     "referenceJs": {
       "type": "text"
+    },
+    "Book": {
+      "type": "richtext"
     }
   }
 }
