@@ -59,6 +59,14 @@
     },
     "title": {
       "type": "string"
+    },
+    "flagSwap": {
+      "type": "boolean",
+      "default": false
+    },
+    "flagWithdraw": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

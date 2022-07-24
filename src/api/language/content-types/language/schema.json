@@ -47,14 +47,6 @@
     },
     "Book": {
       "type": "richtext"
-    },
-    "SwapFlag": {
-      "type": "boolean",
-      "default": false
-    },
-    "SwapWIthdraw": {
-      "type": "boolean",
-      "default": false
     }
   }
 }
