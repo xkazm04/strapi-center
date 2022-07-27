@@ -67,6 +67,21 @@
     "flagWithdraw": {
       "type": "boolean",
       "default": false
+    },
+    "slOpt": {
+      "type": "integer"
+    },
+    "slInf": {
+      "type": "integer"
+    },
+    "slLow": {
+      "type": "integer"
+    },
+    "slMed": {
+      "type": "integer"
+    },
+    "slHigh": {
+      "type": "integer"
     }
   }
 }
