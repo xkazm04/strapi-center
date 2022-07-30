@@ -82,6 +82,10 @@
     },
     "slHigh": {
       "type": "integer"
+    },
+    "modern": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
