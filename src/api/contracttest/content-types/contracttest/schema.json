@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracttests",
+  "info": {
+    "singularName": "contracttest",
+    "pluralName": "contracttests",
+    "displayName": "Contracttest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "reference": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "isSwap": {
+      "type": "boolean",
+      "default": false
+    },
+    "code": {
+      "type": "richtext"
+    },
+    "version": {
+      "type": "string"
+    },
+    "chain": {
+      "type": "string"
+    },
+    "path": {
+      "type": "text"
+    },
+    "fullname": {
+      "type": "text"
+    },
+    "functions": {
+      "type": "richtext"
+    },
+    "events": {
+      "type": "richtext"
+    },
+    "codeClean": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "flagSwap": {
+      "type": "boolean",
+      "default": false
+    },
+    "flagWithdraw": {
+      "type": "boolean",
+      "default": false
+    },
+    "slOpt": {
+      "type": "integer"
+    },
+    "slInf": {
+      "type": "integer"
+    },
+    "slLow": {
+      "type": "integer"
+    },
+    "slMed": {
+      "type": "integer"
+    },
+    "slHigh": {
+      "type": "integer"
+    },
+    "modern": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
