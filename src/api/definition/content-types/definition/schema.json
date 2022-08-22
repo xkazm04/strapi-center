@@ -74,9 +74,6 @@
     },
     "Subcategory": {
       "type": "string"
-    },
-    "codePreview": {
-      "type": "richtext"
     }
   }
 }
