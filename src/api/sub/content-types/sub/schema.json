@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subs",
+  "info": {
+    "singularName": "sub",
+    "pluralName": "subs",
+    "displayName": "Sub"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 30
+    },
+    "Enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
